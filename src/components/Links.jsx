@@ -1,7 +1,7 @@
 export default function Links() {
   return (
     <>
-      <h2>Projects</h2>
+      <h2>projects_</h2>
       <ul className="link_list">
         <li>
           <a
