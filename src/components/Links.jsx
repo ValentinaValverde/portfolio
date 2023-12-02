@@ -30,6 +30,15 @@ export default function Links() {
             Responsive Web Design
           </a>
         </li>
+        <li>
+          <a
+            href="https://github.com/ValentinaValverde/sheepAndWolves"
+            target="_blank"
+            className="a"
+          >
+            Sheep & Wolves Interactive Story
+          </a>
+        </li>
       </ul>
     </>
   );
