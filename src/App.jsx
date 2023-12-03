@@ -3,7 +3,8 @@ import Links from "./components/Links";
 function App() {
   return (
     <>
-      <Links />
+      {/* <Links /> */}
+      <p>portfolio</p>
     </>
   );
 }
