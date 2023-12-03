@@ -1,10 +1,9 @@
-import Links from "./components/Links";
+import SplashPage from "./components/SplashPage";
 
 function App() {
   return (
     <>
-      {/* <Links /> */}
-      <p>portfolio</p>
+      <SplashPage />
     </>
   );
 }
