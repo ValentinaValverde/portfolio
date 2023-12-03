@@ -96,3 +96,24 @@
   text-align: right;
   font-size: 15px;
 }
+
+/* PROJECTS SECTION STYLES */
+.contact_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .contact {
+    padding: 20px;
+    height: 75px;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact:hover {
+    border: solid;
+  }
+}

@@ -10,7 +10,7 @@ export default function SplashPage() {
             target="_blank"
             className="left link"
           >
-            LinkedIn
+            <i>LinkedIn</i>
           </a>
           <p className="large">
             valentina's <br />
@@ -21,8 +21,8 @@ export default function SplashPage() {
             target="_blank"
             className="right link"
           >
-            Github
-          </a>{" "}
+            <i>Github</i>
+          </a>
         </div>
         <div className="little_container">
           <p className="p">web developer</p>
