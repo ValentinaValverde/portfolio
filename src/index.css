@@ -49,7 +49,7 @@
 }
 
 .little_container {
-  margin: -40px;
+  margin-top: -40px;
   display: flex;
   justify-content: center;
 
@@ -61,4 +61,38 @@
     padding: 10px;
     width: 200px;
   }
+}
+
+/* ABOUT STYLES */
+.about_container {
+  border-style: solid none solid solid;
+  border-radius: 100px 0px 0px 100px;
+  padding: 20px;
+  margin: 20px 0px 0px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .one {
+    width: 500px;
+    max-width: 90%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile_img {
+    width: 50%;
+    border-radius: 200px;
+    border: solid;
+  }
+}
+
+.est {
+  text-align: right;
+  font-size: 15px;
 }
