@@ -97,7 +97,7 @@
   font-size: 15px;
 }
 
-/* PROJECTS SECTION STYLES */
+/* CONTACT SECTION STYLES */
 .contact_container {
   display: flex;
   justify-content: space-around;
@@ -115,5 +115,31 @@
 
   .contact:hover {
     border: solid;
+  }
+}
+
+/* PROJECTS SECTION STYLES */
+.projects_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .project {
+    background-color: black;
+    margin: 10px;
+    padding: 20px;
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    background-image: url("https://images.pexels.com/photos/7232498/pexels-photo-7232498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+  }
+
+  .project:hover {
+    border: solid;
+    cursor: pointer;
   }
 }
