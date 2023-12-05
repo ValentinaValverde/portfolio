@@ -97,13 +97,13 @@
   font-size: 15px;
 }
 
-/* CONTACT SECTION STYLES */
-.contact_container {
+/* PROJECT TYPE STYLES */
+.type_container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 
-  .contact {
+  .type {
     padding: 20px;
     height: 75px;
     width: 20%;
@@ -113,7 +113,7 @@
     align-items: center;
   }
 
-  .contact:hover {
+  .type:hover {
     border: solid;
   }
 }
