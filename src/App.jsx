@@ -11,7 +11,6 @@ function App() {
       <SplashPage />
       <About />
       <ProjectType />
-      <Projects />
       <Resume />
       <Contact />
     </>

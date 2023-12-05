@@ -104,6 +104,9 @@
   align-items: center;
 
   .type {
+    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px;
     height: 75px;
     width: 20%;
