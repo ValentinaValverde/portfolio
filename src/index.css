@@ -123,15 +123,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 50px;
+
+  .p {
+    /* background-color: black; */
+    margin-bottom: 0px;
+  }
 
   .project {
-    background-color: black;
     margin: 10px;
     padding: 20px;
     width: 90%;
     height: 300px;
     border-radius: 10px;
-    background-image: url("https://images.pexels.com/photos/7232498/pexels-photo-7232498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     justify-content: space-between;
@@ -141,5 +148,22 @@
   .project:hover {
     border: solid;
     cursor: pointer;
+  }
+
+  .arrow_icon {
+    width: 50px;
+  }
+}
+
+/* CONTACT SECTION STYLES */
+.contact_container {
+  background-color: black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .contact {
+    padding: 20px;
   }
 }
