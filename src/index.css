@@ -160,6 +160,34 @@
   }
 }
 
+.more_projects {
+  /* background-color: black; */
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+
+  .project {
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project:hover {
+    border: solid;
+    cursor: pointer;
+  }
+}
+
 /* CONTACT SECTION STYLES */
 .contact_container {
   background-color: black;
@@ -174,7 +202,6 @@
 }
 
 /* TECHSTACK STYLES */
-
 .techstack_container {
   text-align: center;
 

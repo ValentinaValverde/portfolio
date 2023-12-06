@@ -1,3 +1,5 @@
+import { MoreProjects } from "./MoreProjects";
+
 export default function Projects() {
   return (
     <>
@@ -61,6 +63,7 @@ export default function Projects() {
           </svg>{" "}
         </a>
       </div>
+      <MoreProjects />
     </>
   );
 }
