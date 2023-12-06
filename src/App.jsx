@@ -1,3 +1,4 @@
+import { Header } from "./components/Header";
 import SplashPage from "./components/SplashPage";
 import About from "./components/About";
 import { ProjectType } from "./components/ProjectType";
@@ -9,6 +10,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
+      <Header />
       <SplashPage />
       <About />
       <TechStack />

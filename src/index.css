@@ -1,6 +1,12 @@
 :root {
   background-color: #252627;
-  color: #f2efe9;
+  /* background-image: radial-gradient(
+    circle at bottom left,
+    #e2caca,
+    #252627 50%
+  ); */
+  background: linear-gradient(240deg, #252627, #e2caca);
+  color: #e2caca;
   font-size: 20px;
   padding: 0;
   margin: 0;
@@ -264,5 +270,21 @@
     width: 500px;
     border-radius: 0px 5px 5px 0px;
     margin-bottom: -5px;
+  }
+}
+
+/* HEADER STYLES */
+
+.header_container {
+  background-color: black;
+  /* position: fixed; */
+  /* width: 100%; */
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .header_icon {
+    width: 30px;
   }
 }
