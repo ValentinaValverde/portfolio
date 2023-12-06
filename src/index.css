@@ -227,27 +227,33 @@
 
 /* RESUME STYLES */
 .resume_container {
-  height: auto;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.resume_border {
+  /* background-color: black; */
+  border: solid;
+  border-radius: 10px;
+  margin: 0px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  .title {
+  .title_container {
     transform: rotate(-90deg);
+    height: auto;
     font-size: 50px;
   }
 
-  .resume_pdf {
-    width: 50%;
-    height: 500px;
-    border-radius: 20px;
+  .resume_photo_container {
+    width: 500px;
   }
 
   .resume_photo {
     width: 500px;
-    max-width: 100%;
-    border-radius: 10px;
+    border-radius: 0px 5px 5px 0px;
+    margin-bottom: -5px;
   }
 }
