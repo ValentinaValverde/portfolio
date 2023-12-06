@@ -20,6 +20,10 @@
   width: 100px;
 }
 
+.icon {
+  width: 50px;
+}
+
 /* SPLASH PAGE STYLES */
 .main_container {
   border: solid;
@@ -189,9 +193,13 @@
 }
 
 /* CONTACT SECTION STYLES */
+.contact_title {
+  font-size: 50px;
+}
+
 .contact_container {
   background-color: black;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -229,6 +237,7 @@
 .resume_container {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .resume_border {
