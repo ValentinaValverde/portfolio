@@ -197,3 +197,24 @@
     margin: 5px;
   }
 }
+
+/* RESUME STYLES */
+.resume_container {
+  height: auto;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    transform: rotate(-90deg);
+    font-size: 50px;
+  }
+
+  .resume_pdf {
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+  }
+}
