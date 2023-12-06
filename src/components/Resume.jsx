@@ -1,5 +1,5 @@
 import React from "react";
-import ResumePDF from "../assets/ResumePDF.pdf";
+import ResumePhoto from "../assets/ResumePhoto.png";
 
 export function Resume() {
   return (
@@ -8,18 +8,13 @@ export function Resume() {
         <p className="title">
           <i>resume </i>
         </p>
-        <iframe src="ResumePDF" className="resume_pdf" />
-        {/* <PDFViewer /> */}
+        <a
+          href="https://drive.google.com/file/d/1IeJgIJpiMpyqwrI1fhB9puZuOrisDLXk/view?usp=sharing"
+          target="_blank"
+        >
+          <img src={ResumePhoto} alt="Resume" className="resume_photo" />
+        </a>
       </div>
     </>
   );
 }
-
-export const PDFViewer = () => {
-  return (
-    <div>
-      <iframe src="../assets/ResumePDF.pdf" />
-    </div>
-  );
-};
-export default PDFViewer;

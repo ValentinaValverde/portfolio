@@ -244,4 +244,10 @@
     height: 500px;
     border-radius: 20px;
   }
+
+  .resume_photo {
+    width: 500px;
+    max-width: 100%;
+    border-radius: 10px;
+  }
 }
