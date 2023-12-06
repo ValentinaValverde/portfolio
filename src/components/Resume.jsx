@@ -5,7 +5,7 @@ export function Resume() {
   return (
     <>
       <p>Resume</p>
-      <iframe src="ResumePDF" />
+      {/* <iframe src="ResumePDF" /> */}
     </>
   );
 }

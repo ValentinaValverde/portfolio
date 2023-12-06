@@ -11,7 +11,7 @@ function App() {
       <SplashPage />
       <About />
       <ProjectType />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
     </>
   );
