@@ -12,7 +12,8 @@ function App() {
       <SplashPage />
       <About />
       <TechStack />
-      <ProjectType />
+      {/* <ProjectType /> */}
+      <Projects />
       <Resume />
       <Contact />
     </>
