@@ -5,21 +5,21 @@ export function MoreProjects() {
         <a
           href="https://github.com/ValentinaValverde/officialMockUp"
           target="_blank"
-          className="project bumerang"
+          className="project bumerang one"
         >
-          Mock Up Site
+          {/* Mock Up Site */}
         </a>
         <a
           href="https://github.com/ValentinaValverde/responsiveWeb"
           target="_blank"
-          className="project bumerang"
+          className="project bumerang two"
         >
-          Responsive Design
+          {/* Responsive Design */}
         </a>
         <a
           href="https://github.com/ValentinaValverde/goose_game"
           target="_blank"
-          className="project bumerang"
+          className="project bumerang three"
         >
           {" "}
           Python Game

@@ -9,7 +9,7 @@ export default function Projects() {
           projects
         </p>
         <a
-          className="project bumerang"
+          className="project bumerang one"
           href="https://github.com/ValentinaValverde/hydrogen-storefront"
           target="_blank"
         >
@@ -29,7 +29,7 @@ export default function Projects() {
         <a
           href="https://github.com/JeffLi117/NomNomNavigator"
           target="_blank"
-          className="project bumerang"
+          className="project bumerang two"
         >
           <p className="p">Nom Nom Navigator</p>
           <svg
@@ -45,7 +45,7 @@ export default function Projects() {
           </svg>{" "}
         </a>
         <a
-          className="project bumerang"
+          className="project bumerang three"
           href="https://github.com/ValentinaValverde/sheepAndWolves"
           target="_blank"
         >

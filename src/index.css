@@ -166,8 +166,8 @@
     width: 90%;
     height: 300px;
     border-radius: 10px;
-    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     text-decoration: none;
@@ -185,6 +185,18 @@
   .arrow_icon {
     width: 50px;
   }
+
+  .one {
+    background-image: url("./assets/malova.png");
+  }
+
+  .two {
+    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  }
+
+  .three {
+    background-image: url("./assets/sheep.png");
+  }
 }
 
 .more_projects {
@@ -198,8 +210,8 @@
     width: 30%;
     height: 200px;
     border-radius: 10px;
-    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     color: white;
     text-decoration: none;
@@ -212,6 +224,18 @@
   .project:hover {
     border: solid;
     cursor: pointer;
+  }
+
+  .one {
+    background-image: url("./assets/mock.png");
+  }
+
+  .two {
+    background-image: url("./assets/responsive.png");
+  }
+
+  .three {
+    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   }
 }
 
