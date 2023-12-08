@@ -2,7 +2,7 @@ export function TechStack() {
   return (
     <>
       <div className="techstack_container">
-        <p className="h">Tech Stack</p>
+        <p className="h bumerang">Tech Stack</p>
         <div className="techstack">
           <p className="language">HTML/CSS</p>
           <p className="language">Javascript</p>
@@ -11,7 +11,7 @@ export function TechStack() {
           <p className="language">GraphQL</p>
         </div>
 
-        <p className="h">Other Tech</p>
+        <p className="h bumerang">Other Tech</p>
         <div className="techstack">
           <p className="language">React</p>
           <p className="language">React Native</p>

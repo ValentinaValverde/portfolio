@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <>
       <div className="contact_container">
-        <h1 className="contact_title">
+        <h1 className="contact_title bumerang">
           <i>Contact</i>
         </h1>
         <a

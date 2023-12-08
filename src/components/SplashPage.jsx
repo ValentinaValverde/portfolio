@@ -12,7 +12,7 @@ export default function SplashPage() {
           >
             <i>LinkedIn</i>
           </a>
-          <p className="large">
+          <p className="large bumerang">
             valentina's <br />
             portfolio
           </p>

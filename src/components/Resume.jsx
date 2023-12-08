@@ -6,7 +6,7 @@ export function Resume() {
     <>
       <div className="resume_container">
         <div className="resume_border">
-          <div className="title_container">
+          <div className="title_container bumerang">
             <i>resume</i>
           </div>
           <div className="resume_photo_container">

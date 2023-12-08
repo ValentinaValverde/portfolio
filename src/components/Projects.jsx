@@ -4,12 +4,12 @@ export default function Projects() {
   return (
     <>
       <div className="projects_container">
-        <p>
+        <p className="bumerang">
           <i>best </i>
           projects
         </p>
         <a
-          className="project"
+          className="project bumerang"
           href="https://github.com/ValentinaValverde/hydrogen-storefront"
           target="_blank"
         >
@@ -29,7 +29,7 @@ export default function Projects() {
         <a
           href="https://github.com/JeffLi117/NomNomNavigator"
           target="_blank"
-          className="project"
+          className="project bumerang"
         >
           <p className="p">Nom Nom Navigator</p>
           <svg
@@ -45,7 +45,7 @@ export default function Projects() {
           </svg>{" "}
         </a>
         <a
-          className="project"
+          className="project bumerang"
           href="https://github.com/ValentinaValverde/sheepAndWolves"
           target="_blank"
         >
