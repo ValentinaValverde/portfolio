@@ -5,7 +5,7 @@ export function Header() {
         <i>vals_studio</i>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          fill="white"
+          fill="#5a7969"
           class="bi bi-cup-straw header_icon"
           viewBox="0 0 16 16"
         >

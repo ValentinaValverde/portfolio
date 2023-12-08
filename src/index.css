@@ -5,8 +5,8 @@
 }
 
 :root {
-  background-color: #173a2b;
-  color: #fbe8d8;
+  background-color: black;
+  color: white;
   font-size: 20px;
   padding: 0;
   margin: 0;
@@ -36,7 +36,7 @@
 
 /* SPLASH PAGE STYLES */
 .main_container {
-  border: solid #e5c7b1;
+  border: solid;
   border-radius: 100px;
 
   height: auto;
@@ -68,10 +68,10 @@
   justify-content: center;
 
   .p {
-    background-color: #173a2b;
+    background-color: black;
     background-size: cover;
     text-align: center;
-    border: solid #e5c7b1;
+    border: solid;
     border-radius: 20px;
     padding: 10px;
     width: 200px;
@@ -80,7 +80,6 @@
 
 /* ABOUT STYLES */
 .about_container {
-  border: #e5c7b1;
   border-style: solid none solid solid;
   border-radius: 100px 0px 0px 100px;
   padding: 20px;
@@ -92,7 +91,6 @@
   flex-wrap: wrap;
 
   .one {
-    color: #5a7969;
     width: 500px;
     max-width: 90%;
     margin: 15px;
@@ -105,7 +103,7 @@
   .profile_img {
     width: 50%;
     border-radius: 200px;
-    border: solid #e5c7b1;
+    border: solid;
   }
 }
 
@@ -134,7 +132,7 @@
   }
 
   .type:hover {
-    border: solid #e5c7b1;
+    border: solid;
   }
 }
 
@@ -168,7 +166,7 @@
   }
 
   .project:hover {
-    border: solid #e5c7b1;
+    border: solid;
     cursor: pointer;
   }
 
@@ -200,7 +198,7 @@
   }
 
   .project:hover {
-    border: solid #e5c7b1;
+    border: solid;
     cursor: pointer;
   }
 }
@@ -208,7 +206,7 @@
 /* CONTACT SECTION STYLES */
 .contact_title {
   font-size: 50px;
-  color: #e2caca;
+  color: #5a7969;
 }
 
 .contact_container {
@@ -240,7 +238,7 @@
   flex-wrap: wrap;
 
   .language {
-    border: solid #e5c7b1;
+    border: solid;
     border-radius: 20px;
     padding: 10px;
     margin: 5px;
@@ -256,7 +254,7 @@
 
 .resume_border {
   /* background-color: black; */
-  border: solid #e5c7b1;
+  border: solid;
   border-radius: 10px;
   margin: 0px;
 
@@ -285,7 +283,7 @@
 
 .header_container {
   background-color: black;
-  color: #e2caca;
+  color: #5a7969;
 
   /* position: fixed; */
   /* width: 100%; */
