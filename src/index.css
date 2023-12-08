@@ -1,11 +1,5 @@
 :root {
   background-color: #252627;
-  /* background-image: radial-gradient(
-    circle at bottom left,
-    #e2caca,
-    #252627 50%
-  ); */
-  background: linear-gradient(240deg, #252627, #e2caca);
   color: #e2caca;
   font-size: 20px;
   padding: 0;
@@ -14,7 +8,7 @@
 
 /* GENERAL */
 .link {
-  color: white;
+  color: #cd5334;
   text-decoration: none;
 }
 
@@ -65,6 +59,7 @@
 
   .p {
     background-color: #252627;
+    background-size: cover;
     text-align: center;
     border: solid;
     border-radius: 20px;
@@ -201,6 +196,7 @@
 /* CONTACT SECTION STYLES */
 .contact_title {
   font-size: 50px;
+  color: #e2caca;
 }
 
 .contact_container {
@@ -277,6 +273,8 @@
 
 .header_container {
   background-color: black;
+  color: #e2caca;
+
   /* position: fixed; */
   /* width: 100%; */
   margin-bottom: 20px;
