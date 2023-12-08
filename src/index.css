@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "Bumerang";
+  src: local("Bumerang-Regular"),
+    url("./fonts/Bumerang-Regular.ttf") format("truetype");
+}
+
 :root {
   background-color: #252627;
   color: #e2caca;
+  /* font-family: Bumerang; */
   font-size: 20px;
   padding: 0;
   margin: 0;
