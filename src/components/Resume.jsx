@@ -11,7 +11,7 @@ export function Resume() {
           </div>
           <div className="resume_photo_container">
             <a
-              href="https://drive.google.com/file/d/1IeJgIJpiMpyqwrI1fhB9puZuOrisDLXk/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yQeU3WHlDtML6z0SHOnj7z7TKJrX8sfw/view"
               target="_blank"
             >
               {" "}

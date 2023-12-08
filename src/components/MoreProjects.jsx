@@ -10,11 +10,11 @@ export function MoreProjects() {
           Mock Up Site
         </a>
         <a
-          href="https://github.com/ValentinaValverde/wireloop_design"
+          href="https://github.com/ValentinaValverde/responsiveWeb"
           target="_blank"
           className="project bumerang"
         >
-          Wireloop Design
+          Responsive Design
         </a>
         <a
           href="https://github.com/ValentinaValverde/goose_game"
