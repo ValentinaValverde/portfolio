@@ -191,7 +191,7 @@
   }
 
   .two {
-    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("./assets/nomnom.png");
   }
 
   .three {
@@ -235,7 +235,7 @@
   }
 
   .three {
-    background-image: url("https://images.pexels.com/photos/2923591/pexels-photo-2923591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-image: url("./assets/goose.png");
   }
 }
 
