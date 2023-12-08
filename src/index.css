@@ -6,7 +6,7 @@
 
 :root {
   background-color: black;
-  color: white;
+  color: #f2e5d7;
   font-size: 20px;
   padding: 0;
   margin: 0;
@@ -20,6 +20,8 @@
 
 .link:hover {
   cursor: pointer;
+  transition: 1s;
+  color: #f2e5d7;
 }
 
 .sparkle {
@@ -28,6 +30,12 @@
 
 .icon {
   width: 50px;
+  transition: 1s;
+  fill: #5a7969;
+}
+
+.icon:hover {
+  fill: #f2e5d7;
 }
 
 .bumerang {
@@ -71,7 +79,7 @@
     background-color: black;
     background-size: cover;
     text-align: center;
-    border: solid;
+    border: solid white;
     border-radius: 20px;
     padding: 10px;
     width: 200px;
@@ -104,6 +112,10 @@
     width: 50%;
     border-radius: 200px;
     border: solid;
+  }
+
+  .green {
+    color: #5a7969;
   }
 }
 
@@ -238,10 +250,12 @@
   flex-wrap: wrap;
 
   .language {
-    border: solid;
     border-radius: 20px;
     padding: 10px;
     margin: 5px;
+    background-color: #5a7969;
+
+    /* color: #5a7969; */
   }
 }
 
@@ -283,7 +297,7 @@
 
 .header_container {
   background-color: black;
-  color: #5a7969;
+  /* color: #5a7969; */
 
   /* position: fixed; */
   /* width: 100%; */

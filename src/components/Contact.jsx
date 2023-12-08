@@ -12,7 +12,6 @@ export default function Contact() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="white"
             className="bi bi-github icon"
             viewBox="0 0 16 16"
           >
@@ -26,7 +25,6 @@ export default function Contact() {
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="white"
             className="bi bi-linkedin icon"
             viewBox="0 0 16 16"
           >

@@ -6,7 +6,7 @@ export default function About() {
       <div className="about_container">
         <div className="one">
           <h1 className="bumerang">About</h1>
-          <p>
+          <p className="green">
             Hello! I am an 18-year-old web developer who specializes in ____.
             While I prefer the frontend, I have experience working on full-stack
             applications. I graduated from Carolina Code School in 2023 and am
