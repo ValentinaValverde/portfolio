@@ -7,10 +7,14 @@ export default function About() {
         <div className="one">
           <h1 className="bumerang">About</h1>
           <p className="green">
-            Hello! I am an 18-year-old web developer who specializes in ____.
-            While I prefer the frontend, I have experience working on full-stack
-            applications. I graduated from Carolina Code School in 2023 and am
-            currently looking for my next job. Located in Greenville, SC. Meow
+            Hi there! My name is Valentina and I am a recent graduate of
+            Carolina Code School. Though I prefer working with the frontend, I
+            am experienced in fullstack applications. I have a strong
+            appreciation for UI/UX design and enjoy making appealing, functional
+            websites that are responsive and user friendly. My goal is to become
+            a frontend developer or web designer and help others like me reach
+            their dreams. Please feel free to reach out with project or job
+            opportunities!
           </p>
         </div>
         <div className="one">
@@ -21,7 +25,7 @@ export default function About() {
           />
         </div>
       </div>
-      <p className="est">est. 2023</p>
+      <p className="est">located in Greenville, SC</p>
     </>
   );
 }
