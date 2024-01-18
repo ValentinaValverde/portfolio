@@ -48,7 +48,7 @@
   border-radius: 100px;
 
   height: auto;
-  /* width: 100%; */
+  max-width: 90%;
   margin: 0;
   padding: 50px;
 
@@ -295,6 +295,7 @@
   border: solid;
   border-radius: 10px;
   margin: 0px;
+  max-width: 90%;
 
   display: flex;
   justify-content: center;
@@ -312,6 +313,7 @@
 
   .resume_photo {
     width: 500px;
+    max-width: 100%;
     border-radius: 0px 5px 5px 0px;
     margin-bottom: -5px;
   }
@@ -324,7 +326,7 @@
   /* color: #5a7969; */
 
   /* position: fixed; */
-  /* width: 100%; */
+  max-width: 90%;
   margin-bottom: 20px;
   padding: 20px;
   display: flex;
